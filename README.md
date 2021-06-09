@@ -9,6 +9,9 @@ Rustam-Z🚀 • 8 June 2021
 - LeetCode
 - https://github.com/jwasham/coding-interview-university
 
+## Advice
+- [Cracking the FAANG internship](https://gist.github.com/kwojcicki/fe916e8a12dd2abea68d772d740daf29)
+
 <!-- Hello, I am Rustam, now you have access to private part. Welcom to Cracking FAANG!
 
 My study plan:
