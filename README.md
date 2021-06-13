@@ -1,18 +1,19 @@
-# Cracking Computer Science 
+# Cracking the Coding Interview
 
 Rustam-Z🚀 • 8 June 2021
 
-> Small steps everyday!
+> Small steps everyday! This repository contains my lecture notes on CTCI book and LeetCode problem solving.
+
+<img src="img/ctci.jpg">
 
 ## Study plan
 - "Cracking the coding interview" book
-- LeetCode
-- https://github.com/jwasham/coding-interview-university
+- LeetCode Problem Solving
 
 ## Advice
 - [Cracking the FAANG internship](https://gist.github.com/kwojcicki/fe916e8a12dd2abea68d772d740daf29)
 
-<!-- Hello, I am Rustam, now you have access to private part. Welcom to Cracking FAANG!
+<!-- Hello, I am Rustam, now you have access to private part. Welcome to Cracking FAANG!
 
 My study plan:
 - #algorithms, #systems_design and #behavior
