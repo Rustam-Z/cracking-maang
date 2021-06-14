@@ -1,9 +1,14 @@
 # LeetCode Problem Solving
 
-## Easy
-- [Valid Parentheses](valid-parentheses.py)
-- [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/)
+> Small steps everyday!
 
+## Highlighted Easy
+- [Valid Parentheses](valid-parentheses.py)
+- [Check if Word Equals Summation of Two Words](check-if-word-equals-summation-of-two-words.py)
+
+## Medium
+
+## My tips
 
 <!-- 
 TODO:
