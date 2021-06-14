@@ -5,6 +5,7 @@
 ## Highlighted Easy
 - [Valid Parentheses](valid-parentheses.py)
 - [Check if Word Equals Summation of Two Words](check-if-word-equals-summation-of-two-words.py)
+- [Longest Common Prefix](longest-common-prefix.py)
 
 ## Medium
 
