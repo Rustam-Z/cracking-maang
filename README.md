@@ -2,7 +2,7 @@
 
 Rustam-Z🚀 • 8 June 2021
 
-> Small steps everyday! This repository contains my lecture notes on CTCI book and LeetCode problem solving.
+> This repository contains my lecture notes on CTCI book and LeetCode problem solving.
 
 <img src="img/ctci.jpg">
 
