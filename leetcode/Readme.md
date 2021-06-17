@@ -17,4 +17,6 @@
 TODO:
 - MUST! https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/
 - https://leetcode.com/problems/reverse-string/
+
+map() https://www.geeksforgeeks.org/python-map-function/
 -->
