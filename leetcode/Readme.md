@@ -9,7 +9,8 @@
 - [Number of Good Pairs](number-of-good-pairs.py)
 - [How Many Numbers Are Smaller Than the Current Number](how-many-numbers-are-smaller-than-the-current-number.py) `sort`
 
-
+## Liked Medium
+- [Group Anagrams](group-anagrams)
 <!-- 
 TODO:
 - MUST! https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/
