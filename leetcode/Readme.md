@@ -9,9 +9,6 @@
 - [Number of Good Pairs](number-of-good-pairs.py)
 - [How Many Numbers Are Smaller Than the Current Number](how-many-numbers-are-smaller-than-the-current-number.py) `sort`
 
-## Medium
-
-## My tips
 
 <!-- 
 TODO:
