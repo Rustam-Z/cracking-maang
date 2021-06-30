@@ -1,3 +1,8 @@
+"""
+char_set = {}
+char_set.get(smth) # get access without error
+"""
+
 def is_unique(s):
     # We can immediately return false, because there are only 128 chars in ASCII
     if len(s) > 128:
