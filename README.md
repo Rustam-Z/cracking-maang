@@ -7,11 +7,15 @@ Rustam-Z🚀 • 8 June 2021
 <img src="img/ctci.jpg">
 
 ## Study plan
-- "Cracking the coding interview" book
-- LeetCode Problem Solving
+- "Cracking the coding interview" + CTCI in Leetcode
+- LeetCode `easy`, `medium`
+- [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf)
 
 ## Advice
 - [Cracking the FAANG internship](https://gist.github.com/kwojcicki/fe916e8a12dd2abea68d772d740daf29)
+
+## Cheat Sheet
+- [Python Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
 
 <!-- Hello, I am Rustam, now you have access to private part. Welcome to Cracking FAANG!
 

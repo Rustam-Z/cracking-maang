@@ -10,7 +10,8 @@
 - [How Many Numbers Are Smaller Than the Current Number](how-many-numbers-are-smaller-than-the-current-number.py) `sort`
 
 ## Liked Medium
-- [Group Anagrams](group-anagrams)
+- [Group Anagrams](group-anagrams.py)
+- [Container With Most Water()]container-with-most-water.py) `iterating list dynamically` `choosing max value`
 <!-- 
 TODO:
 - MUST! https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/
