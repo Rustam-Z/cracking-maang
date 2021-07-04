@@ -1,7 +1,7 @@
 """
 ''.join(sorted(s)) # make again string
 
-ord('A)=65
+ord('A')=65
 
 chr(65)="A"
 """
