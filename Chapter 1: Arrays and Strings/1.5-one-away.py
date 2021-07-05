@@ -9,7 +9,7 @@ MY SOLUTION:
     - or even better, found_diff=False, check one by one, if found found_diff=True, if found second time then retunr False
     - one_edit_replace() here it is
 
-CTCI SOLUTION:
+CTCI SOLUTION: #better
 - Replacement
 - Insertion & Removal merge, removal is the inverse of insertion
 """
