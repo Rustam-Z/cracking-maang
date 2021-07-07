@@ -15,6 +15,19 @@ Expected:
 [9,6,3]
 
 DONE!
+
+How it works?
+So, we change layer by layer. For example, the below is the first layer of 3x3 matrix:
+[1,2,3]
+[4, ,6]
+[7,8,9]
+
+for i = 0 to n
+    temp = top[i]
+    top[i] = left[i]
+    left[i] = bottom[i]
+    bottom[i] = right[i]
+    right[i] = temp
 """
 
 def rotate(matrix):
@@ -29,7 +42,7 @@ def rotate(matrix):
         for i in range(first, last):
             offset = i - first
             top = matrix[first][i] # save top
-
+            print(offset, top)
             # left -> top
             matrix[first][i] = matrix[last-offset][first]
         
