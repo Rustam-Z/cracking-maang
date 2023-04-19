@@ -7,7 +7,8 @@ I post here interesting content for preparation: [@crackingmaang](https://t.me/c
 ## Contents:
 - [General plan](#general-plan)
 - [How to approach solving algorithm?](#how-to-approach-solving-algorithm)
-- [Algorithms & Data Structures](#algorithms-&-data-structures)
+- [Algorithms & data structures topics](#topics)
+- [Algorithms learning preparation plan](#plan)
 - [System Design](#system-design)
 - [Extra Resources](#extra-resources)
 
@@ -79,7 +80,7 @@ I post here interesting content for preparation: [@crackingmaang](https://t.me/c
     - Greedy algorithms
     - Recursion
 
-## Algo & DS Preparation Plan
+## Plan
 - [ ] [Jenny's DSA playlist](https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU)
 - [ ] [interviewbit.com](https://www.interviewbit.com/courses/programming/) & [programiz.com/dsa](https://www.programiz.com/dsa)
 - [ ] [LeetCode Explore](https://leetcode.com/explore/)
