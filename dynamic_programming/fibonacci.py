@@ -8,22 +8,21 @@ def fib(n):
     return result
 
 
-def __fib_2(n, memo):
-    # A memoized solution.
-
+def _fib_2(n, memo):
     if memo[n] is not None:
         return memo[n]
     if n == 1 or n == 2:
         result = 1
     else:
-        result = __fib_2(n-1, memo) + __fib_2(n-2, memo)
+        result = _fib_2(n-1, memo) + _fib_2(n-2, memo)
     memo[n] = result
     return result
 
 
 def fib_memo(n):
+    # A memoized solution.
     memo = [None] * (n + 1)
-    return __fib_2(n, memo)
+    return _fib_2(n, memo)
 
 
 def fib_bottom_up(n):
