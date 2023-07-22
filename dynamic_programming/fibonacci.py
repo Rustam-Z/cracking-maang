@@ -1,6 +1,5 @@
 def fib(n):
     # A naive recursive solution.
-
     if n == 1 or n == 2:
         result = 1
     else:
@@ -27,7 +26,6 @@ def fib_memo(n):
 
 def fib_bottom_up(n):
     # A bottom-up solution
-
     if n == 1 or n == 2:
         return 1
 

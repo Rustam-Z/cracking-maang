@@ -2,9 +2,11 @@
 
 Rustam-Z🚀 • 8 June 2021
 
-I post here interesting content for preparation: [@crackingmaang](https://t.me/crackingmaang)
+> Join my Telegram channel: [@crackingmaang](https://t.me/crackingmaang), where I share MAANG interview preparation resources.
 
-## Contents:
+<img src="_resources/ctci.jpg">
+
+## Contents
 - [General plan](#general-plan)
 - [How to approach solving algorithm?](#how-to-approach-solving-algorithm)
 - [Algorithms & data structures topics](#topics)

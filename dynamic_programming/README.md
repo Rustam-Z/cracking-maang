@@ -9,7 +9,7 @@
 
 ## Types of DP techniques
 There are two main types of dynamic programming:
-1. **Memoization** (Top-down): 
+1. **Memoization** (Top-down) same as recursion + caching: 
     The memoized program for a problem is similar to the recursive version with a small modification that it looks 
     into a lookup table before computing solutions. We initialize a lookup array with all initial values as NIL. 
     Whenever we need the solution to a sub-problem, we first look into the lookup table. If the precomputed value 
