@@ -83,6 +83,7 @@ Rustam-Z🚀 • 8 June 2021
 
 ## Plan
 - [ ] [Jenny's DSA playlist](https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU)
+- [ ] [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/introduction/)
 - [ ] [interviewbit.com](https://www.interviewbit.com/courses/programming/) & [programiz.com/dsa](https://www.programiz.com/dsa)
 - [ ] [LeetCode Explore](https://leetcode.com/explore/)
 - [ ] [LeetCode study plan](https://leetcode.com/study-plan/) — Data Structure 1, Algorithm 1, Programming Skills 1
