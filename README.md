@@ -104,4 +104,9 @@ Rustam-Z🚀 • 8 June 2021
 - [InterviewPreparationGuide.pdf](http://larrr.com/wp-content/uploads/2016/10/InterviewPreparationGuide.pdf)
 - [faang-interview.github.io](https://faang-interview.github.io/)
 - [docs.outtalent.com/guides](https://docs.outtalent.com/guides)
-- [FAANG Interview Telegram Community](https://t.me/FaangInterview)
+- [Coding interview tips](https://www.interviewcake.com/coding-interview-tips)
+
+## Algorithms & Data Structures Readings
+- https://www.hiredintech.com/classrooms/algorithm-design/lesson/78
+- https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/
+- https://medium.com/swlh/taking-the-edge-off-of-edge-cases-7b3008d83a57

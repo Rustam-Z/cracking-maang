@@ -3,7 +3,7 @@
 "Those who cannot remember the past are condemned to repeat it." - Dynamic Programming
 
 ## What is Dynamic Programming?
-- Dynamic programming amounts to breaking down an **optimization problem** into simpler sub-problems, kand storing the solution to each sub-problem so that each sub-problem is only solved once.
+- Dynamic programming amounts to breaking down an **optimization problem** into simpler sub-problems, and storing the solution to each sub-problem so that each sub-problem is only solved once.
 - The goal of DP is to solve the problem by combining solutions to these sub-problems, never solving the same sub-problem twice.
 - Dynamic programming is an optimization technique for recursive solutions. 
 

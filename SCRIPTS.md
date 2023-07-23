@@ -78,7 +78,7 @@ def arith_sum(n:int):
 
 ### Transpose the matrix
 
-```
+```python
 def transpose_matrix(matrix)
 	return list(zip(*matrix)
 ```
