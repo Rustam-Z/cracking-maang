@@ -1,11 +1,18 @@
-## Top coding interview concepts
-
+# Top coding interview concepts
 - Heap top=O(1), insert=O(log n), remove=O(log n), heapify=O(n)
 - Sliding window, two pointers
 - Binary search O(log n)
 - DFS & BFS
 - Recursion (trees, graphs, backtracking, DP and more)
 - HashMaps search=O(1), insert=O(1), remove=O(1)
+
+# Algorithms Design Techniques
+1. Recursive or iterative.
+2. Brute force: Looks for all possible solutions, in the end select 1 solution.
+3. Divide and Conquer: Divide input, recursively solve sub-problems, combine in the end. Recursive.
+4. Dynamic Programming: The goal of DP is to solve the problem by combining solutions to sub-problems, never solving the same sub-problem twice. Types: memorization (top-down) & tabulation (bottom-up). Recursive.
+5. Backtracking: Looks for all possible solutions, and as soon as it finds one, it stops searching. Recursive. Takes input, check constraints, if input is invalid undoes the choice (backtrack) and tries other options.
+6. Greedy Method: At every step we select local optima, don't think about future.
 
 # Strings
 
@@ -42,20 +49,20 @@ Returns: {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5, 'f': 6, 'g': 7, 'h': 8, 'i': 9
 
 ```python
 def str2int(num):
-	int_ = 0
-	for i in num:
-		int_ = int_ * 10 + ord(i) - ord('0') # Or create a dict like "0": 0, "1":1 ....
-	return int_
+    int_ = 0
+    for i in num:
+        int_ = int_ * 10 + ord(i) - ord('0') # Or create a dict like "0": 0, "1":1 ....
+    return int_
 ```
 
 # Numbers (int, float)
 
 ### Arithmetic series sum
 
-```
+```python
 def arith_sum(n:int):
     first_term = 1
-		common_diff = 1
+        common_diff = 1
     sum_of_terms = (n * (2 * first_term + (n - 1) * common_diff)) // 2
     return sum_of_terms
 ```
@@ -80,5 +87,5 @@ def arith_sum(n:int):
 
 ```python
 def transpose_matrix(matrix)
-	return list(zip(*matrix)
+    return list(zip(*matrix)
 ```
