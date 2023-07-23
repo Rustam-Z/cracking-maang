@@ -75,10 +75,9 @@ Rustam-Z🚀 • 8 June 2021
         - Binary search
         - Searching in linked lists, arrays, trees, graphs, dictionaries...
     - Dynamic programming = problems, which are problems where the solution is composed of solutions to the same problem with smaller inputs.
-        - Recursion
         - Bottom-up
         - Top-down
-        - Backtracking = Backtracking is an algorithmic technique for solving problems recursively by trying to build a solution incrementally, one piece at a time.
+    - Backtracking = Backtracking is an algorithmic technique for solving problems recursively by trying to build a solution incrementally, one piece at a time.
     - Greedy algorithms
     - Recursion
 
