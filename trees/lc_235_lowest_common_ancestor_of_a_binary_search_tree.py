@@ -13,7 +13,7 @@ class Solution:
 
     def lowestCommonAncestorRecursive(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         def recursion(root, p, q):
-            if root == None:
+            if root is None:
                 return
             if root.val < p and root.val < q:
                 return recursion(root.right, p, q)

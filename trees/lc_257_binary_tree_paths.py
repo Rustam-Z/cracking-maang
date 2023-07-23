@@ -38,3 +38,12 @@ class Solution:
 
         traversal(root, string)
         return result
+
+
+if __name__ == '__main__':
+    root = TreeNode(1)
+    root.left = TreeNode(2)
+    root.left.right = TreeNode(5)
+    root.right = TreeNode(3)
+
+    print(Solution().binaryTreePaths(root))

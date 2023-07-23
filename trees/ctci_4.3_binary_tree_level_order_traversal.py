@@ -10,6 +10,8 @@ Solution:
 Time: O(n), where n is the number of nodes
 Space: O(n)
 """
+from collections import deque
+
 
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -23,7 +25,7 @@ class Solution:
         if not root:
             return []
 
-        queue, result_list = [], []
+        queue, result_list = deque(), []
         queue.append(root)
 
         while queue:
@@ -41,3 +43,28 @@ class Solution:
             result_list.append(nodes_values)
 
         return result_list
+
+
+if __name__ == '__main__':
+    root = TreeNode(3)
+    root.left = TreeNode(9)
+    root.left.left = TreeNode(4)
+    root.left.right = TreeNode(5)
+    root.right = TreeNode(20)
+    root.right.left = TreeNode(15)
+    root.right.right = TreeNode(7)
+    root.right.right.right = TreeNode(71)
+
+    """
+    Tree:
+         3
+        / \
+       9   20
+      / \  / \
+     4  5  15 7
+               \
+                71
+    """
+
+    s = Solution()
+    print(s.levelOrder(root))
