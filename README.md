@@ -82,9 +82,8 @@ Rustam-Z🚀 • 8 June 2021
     - Recursion
 
 ## Plan
-- [ ] [Jenny's DSA playlist](https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU)
 - [ ] [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/introduction/)
-- [ ] [interviewbit.com](https://www.interviewbit.com/courses/programming/) & [programiz.com/dsa](https://www.programiz.com/dsa)
+- [ ] [interviewbit.com](https://www.interviewbit.com/courses/programming/) & [interviewcake.com](https://www.interviewcake.com/table-of-contents) & [programiz.com/dsa](https://www.programiz.com/dsa)
 - [ ] [LeetCode Explore](https://leetcode.com/explore/)
 - [ ] [LeetCode study plan](https://leetcode.com/study-plan/) — Data Structure 1, Algorithm 1, Programming Skills 1
 - [ ] "Cracking the coding interview" + [CTCI problems in LeetCode](https://leetcode.com/discuss/general-discussion/1152824/cracking-the-coding-interview-6th-edition-in-leetcode)
