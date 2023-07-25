@@ -1,5 +1,14 @@
 """
 Optimized Bubble sort algorithm implementation.
+
+Algorithm:
+    (Compare and Swap)
+    Starting from the first index, compare the first and the second elements.
+    If the first element is greater than the second element, they are swapped.
+    Now, compare the second and the third elements. Swap them if they are not in order.
+    The above process goes on until the last element.
+    After each iteration, the largest element among the unsorted elements is placed at the end.
+
 Time Complexity: O(n^2)
     Best O(n)
     Worst O(n^2)
@@ -12,13 +21,12 @@ def bubble_sort(array):
     for i in range(len(array)):
         swapped = False
         for j in range(0, len(array) - i - 1):
-            # change > to < to sort in descending order
+            # Change > to < to sort in descending order.
             if array[j] > array[j + 1]:
                 array[j], array[j + 1] = array[j + 1], array[j]
                 swapped = True
 
-        # no swapping means the array is already sorted
-        # so no need for further comparison
+        # No swapping means the array is already sorted, so no need for further comparison.
         if not swapped:
             break
 

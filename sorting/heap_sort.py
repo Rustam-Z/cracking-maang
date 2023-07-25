@@ -1,21 +1,39 @@
 """
 Heap sort algorithm implementation.
+Largest element is stored at the root of the heap in max heap.
+
 Time complexity: best, worst, average = O(n log n)
 Space complexity: O(1)
 """
+from heapq import heappush, heappop
+
+
+def heap_sort_heapq(iterable):
+    h = []
+    for value in iterable:
+        heappush(h, value)
+    return [heappop(h) for _ in range(len(h))]
 
 
 def heapify(arr, n, i):
-    largest = i
-    l = 2*i + 1
-    r = 2*i + 2
+    """
+    arr: array to heapify
+    n: size of heap, number of elements in the array that need to be heapified.
+    i: index of root to which we want to perform heapify.
+    """
+    largest = i  # Initialize largest as root
+    left = 2*i + 1
+    right = 2*i + 2
 
-    if l < n and arr[l] > arr[largest]:
-        largest = l
+    # See if left child of root exists and is greater than root.
+    if left < n and arr[left] > arr[largest]:
+        largest = left
 
-    if r < n and arr[r] > arr[largest]:
-        largest = r
+    # See if right child of root exists and is greater than root.
+    if right < n and arr[right] > arr[largest]:
+        largest = right
 
+    # If root is not largest, swap with largest and continue heapifying.
     if largest != i:
         arr[i], arr[largest] = arr[largest], arr[i]
 
@@ -26,7 +44,8 @@ def heapify(arr, n, i):
 def heap_sort(arr):
     n = len(arr)
 
-    # Max heap
+    # Build a maxheap.
+    # Since last parent will be at ((n//2)-1) we can start at that location.
     for i in range(n//2 - 1, -1, -1):
         heapify(arr, n, i)
 

@@ -1,5 +1,19 @@
 """
 Quick sort algorithm implementation.
+
+Algorithm:
+    1. Select a pivot, normally (random, first, last, or middle) element.
+    2. Compare the pivot with each element in the array, elements smaller than pivot are placed at left and greater than pivot are placed at right.
+    3. Repeat step 2 recursively until all elements are sorted.
+
+    Second step is very important, it is called partitioning.
+    1. We select pivot as last element.
+    2. Left pointer will point to first element.
+    3. If element smaller than pivot is found, we swap it with element at left ptr. And left ptr will be incremented by 1.
+    4. If element greater than pivot is found, we do nothing.
+    5. After all the iterations, we swap pivot with element at greater pointer.
+
+
 Time complexity:
     Best case: O(n log n)
     Average case: O(n log n)
