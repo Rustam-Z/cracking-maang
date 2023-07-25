@@ -8,3 +8,6 @@ The basic idea behind the Greedy Algorithm can be summarized in the following st
 - Selection: At each step, choose the best available option that appears to be the most beneficial or promising among the available choices. The decision is based solely on the information available at that specific step.
 - Feasibility check: Verify if the chosen option is feasible or valid. If it is not feasible, the algorithm might backtrack and reconsider the last decision made.
 - Repeat: Continue making locally optimal choices and checking feasibility until a complete solution is obtained.
+
+## Resources
+- https://www.programiz.com/dsa/greedy-algorithm
