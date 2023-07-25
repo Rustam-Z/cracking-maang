@@ -22,7 +22,7 @@
 2. **Height of node** = number of edges from the deepest leaf to node.
 3. **Depth of a node** = number of edges from the root to the node.
 4. **Height of a tree** = height of the root node.
-5. If TREE[0] = ROOT then
+5. If TREE[0] = ROOT then for complete binary tree:
     - Left child of a node K => `2*K + 1`
     - Right child of a node K => `2*K + 2`
     - Parent of any node K => `floor(K/2) - 1`
@@ -34,7 +34,6 @@
 ### Binary heaps (min-heap)
 1. A min-heap is a complete binary tree where each node is smaller than its children. The root = min element in tree.
 2. We have two methods, `insert()` and `extract_min()`, both `O(logn)`, where `n` is the number of nodes in the heap.
-
 
 897 - beautiful use case of in-order traversal
 ctci_4.5_validate_BST.py - traversal with arg
