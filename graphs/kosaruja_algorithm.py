@@ -1,5 +1,6 @@
 """
-Kosaraju's algorithm to find strongly connected components
+Kosaraju's algorithm to find strongly connected components.
+Strongly connected components = directed graph (one way edges) in which there is a route between every two nodes.
 
 Algorithm:
     1. Start DFS from vertex 0. Create "Visited set" and "stack".

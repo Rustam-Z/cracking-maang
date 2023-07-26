@@ -48,3 +48,6 @@ class Solution:
                     cost_of_collect += cost_from_child + 2
 
             return cost_of_collect
+
+        root_node_idx = 0
+        return collect_in_dfs(cur_node=root_node_idx)
