@@ -15,23 +15,21 @@ Space complexity: O(V)
 https://www.youtube.com/watch?v=7fujbpJ0LB4
 https://www.programiz.com/dsa/graph-dfs
 """
-import pytest
 
 traversal = []
 
 
-def dfs_version1(graph, node, visited=None):
+def dfs(graph, node, visited=None):
     if visited is None:
         visited = set()  # Or even you can use an array of booleans.
 
-    # Mark the current node as visited
-    visited.add(node)
-    traversal.append(node)
+    visited.add(node)  # Mark the current node as visited
+    traversal.append(node)  # To get result.
 
     # Recursion for all the vertices adjacent to this vertex
     for child in graph[node]:
         if child not in visited:
-            dfs_version1(graph, child, visited)
+            dfs(graph, child, visited)
 
 
 def dfs_version2(graph, node, visited=None):
@@ -39,9 +37,8 @@ def dfs_version2(graph, node, visited=None):
         visited = set()
 
     if node not in visited:
-        # print(node, end=" ")
-        traversal.append(node)
         visited.add(node)
+        traversal.append(node)  # To get result.
 
         for neighbour in graph[node]:  # graph[node] - visited
             dfs_version2(graph, neighbour, visited)
@@ -59,7 +56,7 @@ def test_dfs_version1():
     expected_result = ['5', '3', '2', '4', '8', '7']
 
     traversal.clear()
-    dfs_version1(graph, '5')
+    dfs(graph, '5')
     assert expected_result == traversal
 
 

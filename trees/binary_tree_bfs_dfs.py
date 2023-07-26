@@ -57,7 +57,7 @@ class Traverse:
 
         while queue:
             level_values = []  # CUSTOM
-            for _ in range(len(queue)):
+            for _ in range(len(queue)):  # Here we want to control the levels. We need to iterate level by level.
                 cur_node = queue.popleft()
                 level_values.append(cur_node.val)  # CUSTOM
 

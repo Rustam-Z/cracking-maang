@@ -1,6 +1,15 @@
 """
 Kosaraju's algorithm to find strongly connected components
 
+Algorithm:
+    1. Start DFS from vertex 0. Create "Visited set" and "stack".
+    2. Visit all of its child vertices, and mark the visited vertices as done.
+       If a vertex leads to an already visited vertex, or we reached the end, then push this vertex to the stack.
+       Example: 3 -> 0. 0 is already visited. Then push 3 to the stack.
+    3. Reverse the graph. Create new visited set. But we will use old stack.
+    4. Start from the top vertex (the end) of the stack. Traverse through all of its child vertices. Once the already visited vertex is reached, one strongly connected component is formed.
+
+
 Applications:
     - Vehicle routing applications
     - Maps
@@ -15,58 +24,63 @@ class Graph:
     def __init__(self, vertex):
         self.V = vertex
         self.graph = defaultdict(list)
+        self.dfs_data = []
+        self.strongly_connected_components = []
 
-    # Add edge into the graph
-    def add_edge(self, s, d):
-        self.graph[s].append(d)
+    # Add edge into the graph. Directed graph.
+    def add_edge(self, node1, node2):
+        self.graph[node1].append(node2)
 
-    # dfs
-    def dfs(self, d, visited_vertex):
-        visited_vertex[d] = True
-        print(d, end=' ')
-        for i in self.graph[d]:
+    def dfs(self, node, visited_vertex):
+        visited_vertex[node] = True
+        self.dfs_data.append(node)
+        for i in self.graph[node]:
             if not visited_vertex[i]:
                 self.dfs(i, visited_vertex)
 
-    # To accomplish step 1
-    def fill_order(self, d, visited_vertex, stack):
-        visited_vertex[d] = True
-        for i in self.graph[d]:
+    # To accomplish step 2, we need to fill the stack.
+    def fill_order(self, node, visited_vertex, stack):
+        visited_vertex[node] = True
+        for i in self.graph[node]:
             if not visited_vertex[i]:
                 self.fill_order(i, visited_vertex, stack)
-        stack = stack.append(d)
+        stack.append(node)
 
-    # transpose the matrix
+    # Transpose the matrix. Reverse the graph.
     def transpose(self):
-        g = Graph(self.V)
+        graph = Graph(self.V)
 
         for i in self.graph:
             for j in self.graph[i]:
-                g.add_edge(j, i)
+                graph.add_edge(j, i)
 
-        return g
+        return graph
 
-    # Print strongly connected components
+    # Print strongly connected components.
     def print_scc(self):
         stack = []
         visited_vertex = [False] * self.V
 
-        # STEP 1
+        # STEP 2: Populate stack.
         for i in range(self.V):
             if not visited_vertex[i]:
                 self.fill_order(i, visited_vertex, stack)
 
-        # STEP 2
-        gr = self.transpose()
+        # STEP 3: Reverse the graph.
+        graph = self.transpose()
 
         visited_vertex = [False] * self.V
 
-        # STEP 3
+        # STEP 4: One by one pop a vertex from stack. And create a strongly connected component.
         while stack:
             i = stack.pop()
             if not visited_vertex[i]:
-                gr.dfs(i, visited_vertex)
-                print(" ")
+                graph.dfs(i, visited_vertex)
+
+                graph.strongly_connected_components.append(graph.dfs_data)
+                graph.dfs_data = []  # Reset the DFS data.
+
+        print(graph.strongly_connected_components)
 
 
 if __name__ == "__main__":

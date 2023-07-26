@@ -46,7 +46,7 @@ class Graph:
 
 
 if __name__ == "__main__":
-    V = 5
+    V = 4
 
     # Create graph and edges
     graph = Graph(V)

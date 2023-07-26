@@ -8,7 +8,10 @@
 - **Directed** = one way street, **undirected graph** = two-way street, do not point to any direction.
 - **Connected graph** = undirected graph in which there is always a path from a vertex to any other vertex.
 - **Strongly connected graph** = directed graph (one way edges) in which there is a route between every two nodes.
-- [**Spanning tree**](https://www.programiz.com/dsa/spanning-tree-and-minimum-spanning-tree) = a sub-graph of an undirected connected graph, which includes **all** the vertices of the graph with a minimum possible number of edges. 
+  - Kosaraju's Algorithm is used to find strongly connected components in a graph. Based on DFS that implemented twice.
+- [**Spanning tree**](https://www.programiz.com/dsa/spanning-tree-and-minimum-spanning-tree) 
+  - A sub-graph of an undirected connected graph, which includes **all** the vertices of the graph with a minimum possible number of edges. If a node/vertex is missed, then it is not a spanning tree.
+  - The total number of spanning trees with n vertices that can be created from a complete graph is equal to n(n-2).
   - Example: computer network routing protocol.
 - **Minimum spanning tree** = A minimum spanning tree is a spanning tree in which the sum of the weight of **all edges** is as minimum as possible.
   - Example: to find paths in the map, to design networks like telecommunication networks, water supply networks, and electrical grid.

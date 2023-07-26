@@ -15,20 +15,18 @@ https://www.programiz.com/dsa/graph-bfs
 from collections import deque
 
 
-def bfs(graph: dict, node: str) -> list:
+def bfs(graph: dict, start_node: str) -> list:
     traversal = []
 
-    visited = [node]  # List for visited nodes
-    queue = deque()
-    queue.append(node)
+    visited = {start_node}  # Set for visited nodes.
+    queue = deque([start_node])  # Queue for nodes to visit.
 
     while queue:
-        m = queue.popleft()
-        traversal.append(m)
-
-        for neighbor in graph[m]:
+        node = queue.popleft()
+        traversal.append(node)  # CUSTOM
+        for neighbor in graph[node]:
             if neighbor not in visited:
-                visited.append(neighbor)
+                visited.add(neighbor)
                 queue.append(neighbor)
 
     return traversal
@@ -45,4 +43,5 @@ def test_bfs():
     }
     expected_result = ['5', '3', '7', '2', '4', '8']
     actual_result = bfs(graph, '5')
+    print(actual_result)
     assert actual_result == expected_result
