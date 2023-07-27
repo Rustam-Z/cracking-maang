@@ -20,7 +20,8 @@ Solution:
     5. Create a new node with the sum % 10.
     6. Move the current node to the next node.
     7. Return the dummy node's next node.
-
+    Time complexity: O(max(m, n)), where m and n are the length of the linked lists.
+    Space complexity: O(max(m, n)), where m and n are the length of the linked lists.
 """
 from typing import Optional
 

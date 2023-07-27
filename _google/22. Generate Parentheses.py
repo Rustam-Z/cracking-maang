@@ -7,12 +7,14 @@ Input: n = 3
 Output: ["((()))","(()())","(())()","()(())","()()()"]
 
 Solution:
-- So, what this N means? It means how many times we can use ( and ). So, why not use this information?
-- We will use recursion to solve this problem. Use backtracking approach, add closing or opening 1 at a time. It will be like a tree.
-- Add open parenthesis if open_count < N
-- Add closing parenthesis if closed_count < open
-- We start from 0
-- Valid result if open == closed == n.
+    - So, what this N means? It means how many times we can use ( and ). So, why not use this information?
+    - We will use recursion to solve this problem. Use backtracking approach, add closing or opening 1 at a time. It will be like a tree.
+    - Add open parenthesis if open_count < N
+    - Add closing parenthesis if closed_count < open
+    - We start from 0
+    - Valid result if open == closed == n.
+    - Time complexity: O(2^n)
+    - Space complexity: O(2^n)
 """
 from typing import List
 
