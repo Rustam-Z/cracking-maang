@@ -7,6 +7,7 @@ Input: n = 3
 Output: ["((()))","(()())","(())()","()(())","()()()"]
 
 Solution:
+    - We need to use backtracking.
     - So, what this N means? It means how many times we can use ( and ). So, why not use this information?
     - We will use recursion to solve this problem. Use backtracking approach, add closing or opening 1 at a time. It will be like a tree.
     - Add open parenthesis if open_count < N
