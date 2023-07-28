@@ -4,12 +4,21 @@ https://leetcode.com/problems/longest-palindromic-substring/
 Problem: Given a string s, return the longest palindromic substring in s.
     Palindrome is a word that reads the same backward as forward.
 
+Input: s = "babad"
+Output: "bab"
+Explanation: "aba" is also a valid answer.
+
+Input: s = "cbbd"
+Output: "bb"
+
 Solution 1: Brute force.
     - Try all possible substrings.
     - Time comp: O(N^3)
     - Space comp: O(1)
 
 Solution 2: Dynamic programming.
+    - Time comp: O(N^2)
+    - Space comp: O(1)
 """
 
 
