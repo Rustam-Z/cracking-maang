@@ -11,6 +11,9 @@
 2. Full binary tree = every node has either zero or two children.
 3. Perfect binary tree = all leaf nodes at the same level, both full and complete. `len = 2^k - 1`, where `k` is depth of tree. 
 4. Binary search tree = ordered binary tree. L < N <= R.
+   - In-order traversal of BST = sorted array.
+   - Time complexity of search, insert and delete is `O(log n)`, where `n` is the number of nodes in the tree.
+   - Space complexity of search, insert and delete is `O(h)`, where `h` is the height of the tree.
 5. Balanced binary tree = difference between the left and the right subtree for any node is not more than one.
 6. [AVL Tree](https://www.programiz.com/dsa/avl-tree) = self-balancing binary search tree in which each node maintains extra information called a balance factor whose value is either -1, 0 or +1.
 7. [B-tree](https://www.programiz.com/dsa/b-tree) = self-balancing search tree in which each node can contain more than one key and can have more than two children. Generalized form of the binary search tree.
@@ -39,6 +42,8 @@
 ## Binary heaps (min-heap)
 1. A min-heap is a complete binary tree where each node is smaller than its children. The root = min element in tree.
 2. We have two methods, `insert()` and `extract_min()`, both `O(logn)`, where `n` is the number of nodes in the heap.
+3. Time complexity of building a heap from an array of `n` elements is `O(n)`. insert and extract_min are `O(logn)`.
+
 
 ## Examples
 ```
