@@ -10,22 +10,24 @@ Rustam-Z🚀 • 8 June 2021
 - [General plan](#general-plan)
 - [How to approach solving algorithm?](#how-to-approach-solving-algorithm)
 - [Algorithms & data structures topics](#topics)
-- [Algorithms learning preparation plan](#plan)
-- [System Design](#system-design)
+- [Algorithms learning preparation plan](#algorithms-learning-plan)
+- [System Design](#system-design-learning-plan)
 - [Extra Resources](#extra-resources)
+
 
 ## General plan
 1. Learn DS and Algorithms
 2. Solve algorithms
 3. Repeat concepts
 4. Learn System Design
-5. Write resume
-6. Prepare for behavioral interview
+5. Write a resume
+6. Prepare for a behavioral interview
 7. Find people for referral and apply
-8. Pass interview
-9. Get offer, negotiate salary! 🍾
+8. Pass the interview
+9. Get an offer, and negotiate salary! 🍾
 
-## How to approach solving algorithm?
+
+## How to approach solving the algorithm?
 **Constraints, Ideas, Complexities, Code, and Tests**
 
 1. Read the problem. Don’t immediately jump into coding!
@@ -35,8 +37,42 @@ Rustam-Z🚀 • 8 June 2021
 5. Evaluate the complexity
 6. Think better alternative solution
 7. Write code on paper
-8. Debug your code on paper, and test with new corner case inputs
+8. Debug your code on paper and test with new corner case inputs
 9. Write code and write tests
+
+
+## Algorithms Learning Plan
+- [ ] [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/introduction/)
+- [ ] [interviewbit.com](https://www.interviewbit.com/courses/programming/) & [interviewcake.com](https://www.interviewcake.com/table-of-contents) & [programiz.com/dsa](https://www.programiz.com/dsa)
+- [ ] [LeetCode Explore](https://leetcode.com/explore/)
+- [ ] [LeetCode study plan](https://leetcode.com/study-plan/) — Data Structure 1, Algorithm 1, Programming Skills 1
+- [ ] "Cracking the coding interview" + [CTCI problems in LeetCode](https://leetcode.com/discuss/general-discussion/1152824/cracking-the-coding-interview-6th-edition-in-leetcode)
+- [ ] [LeetCode study plan](https://leetcode.com/study-plan/) — Data Structure 2, Algorithm 2, Programming Skills 2
+- [ ] AlgoExpert video solutions
+- [ ] [neetcode.io](https://neetcode.io/) & [NeetCode playlist](https://www.youtube.com/c/NeetCode/playlists)
+- [ ] LeetCode company tagged questions
+
+
+## System Design Learning Plan
+- [ ] "Systems Expert" from AlgoExpert
+- [ ] "System Design Interview" book - 1<sup>st</sup> and 2<sup>nd</sup> editions
+- [ ] "Grokking the System Design Interview" (educative.io)
+- [ ] "Designing Data-Intensive Applications" book
+- [ ] [Tushar](https://www.youtube.com/user/tusharroy2525/playlists)
+
+
+## Extra Resources
+- [Article by Sergey Sema](https://dou.ua/lenta/articles/google-interview/)
+- [InterviewPreparationGuide.pdf](http://larrr.com/wp-content/uploads/2016/10/InterviewPreparationGuide.pdf)
+- [faang-interview.github.io](https://faang-interview.github.io/)
+- [docs.outtalent.com/guides](https://docs.outtalent.com/guides)
+- [Coding interview tips](https://www.interviewcake.com/coding-interview-tips)
+  
+### Algorithms & Data Structures Readings
+- https://www.hiredintech.com/classrooms/algorithm-design/lesson/78
+- https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/
+- https://medium.com/swlh/taking-the-edge-off-of-edge-cases-7b3008d83a57
+
 
 ## Topics
 - Big-O = **how quickly the runtime grows relative to the input as the input gets arbitrarily large.**
@@ -81,32 +117,3 @@ Rustam-Z🚀 • 8 June 2021
     - Greedy algorithms
     - Recursion
 
-## Plan
-- [ ] [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/introduction/)
-- [ ] [interviewbit.com](https://www.interviewbit.com/courses/programming/) & [interviewcake.com](https://www.interviewcake.com/table-of-contents) & [programiz.com/dsa](https://www.programiz.com/dsa)
-- [ ] [LeetCode Explore](https://leetcode.com/explore/)
-- [ ] [LeetCode study plan](https://leetcode.com/study-plan/) — Data Structure 1, Algorithm 1, Programming Skills 1
-- [ ] "Cracking the coding interview" + [CTCI problems in LeetCode](https://leetcode.com/discuss/general-discussion/1152824/cracking-the-coding-interview-6th-edition-in-leetcode)
-- [ ] [LeetCode study plan](https://leetcode.com/study-plan/) — Data Structure 2, Algorithm 2, Programming Skills 2
-- [ ] AlgoExpert video solutions
-- [ ] [neetcode.io](https://neetcode.io/) & [NeetCode playlist](https://www.youtube.com/c/NeetCode/playlists)
-- [ ] LeetCode company tagged questions
-
-## System Design
-- [ ] "Systems Expert" from AlgoExpert
-- [ ] "System Design Interview" book - 1<sup>st</sup> and 2<sup>nd</sup> editions
-- [ ] "Grokking the System Design Interview" (educative.io)
-- [ ] "Designing Data-Intensive Applications" book
-- [ ] [Tushar](https://www.youtube.com/user/tusharroy2525/playlists)
-
-## Extra Resources
-- [Article by Sergey Sema](https://dou.ua/lenta/articles/google-interview/)
-- [InterviewPreparationGuide.pdf](http://larrr.com/wp-content/uploads/2016/10/InterviewPreparationGuide.pdf)
-- [faang-interview.github.io](https://faang-interview.github.io/)
-- [docs.outtalent.com/guides](https://docs.outtalent.com/guides)
-- [Coding interview tips](https://www.interviewcake.com/coding-interview-tips)
-
-## Algorithms & Data Structures Readings
-- https://www.hiredintech.com/classrooms/algorithm-design/lesson/78
-- https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/
-- https://medium.com/swlh/taking-the-edge-off-of-edge-cases-7b3008d83a57
