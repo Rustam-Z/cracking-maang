@@ -32,6 +32,10 @@ def permute(nums: list[int]) -> list[list[int]]:
 
 
 def permute_2(nums: List[int]) -> List[List[int]]:
+    """
+    Time complexity: O(n*n!), Given a set of length n, the number of permutations is n!n!n!.
+    Space complexity: O(n!)
+    """
     def backtrack(curr):
         if len(curr) == len(nums):
             ans.append(curr[:])
