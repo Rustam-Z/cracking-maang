@@ -34,7 +34,7 @@ Solution 2 (DP bottom up + Backtracking):
 from typing import List
 
 
-def coinChange(coins: List[int], amount: int) -> int:
+def coinChangeBottomUp(coins: List[int], amount: int) -> int:
     dp = [float('inf')] * (amount + 1)  # We will store the minimum number of coins to make up that amount.
     dp[0] = 0  # We need 0 coins to make up 0 amount.
 

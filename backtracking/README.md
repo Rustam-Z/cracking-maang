@@ -10,6 +10,9 @@ Brute-force search (BFS) is a type of algorithm which computes every possible so
 - Backtracking vs brute force:
   - The difference is that backtracking is an optimization over the brute force approach, which looks for a solution by trying all possible paths and then selecting the best one. On the other hand, backtracking looks for a solution by trying all possible paths, and as soon as it finds one, it stops searching.
   - Backtracking is an extension to BFS in which the implicit constraints are evaluated after every choice (as opposed to after all solutions have been generated), which means that potential solutions can be discarded before they have been 'finished'.
+- Dynamic programming = solving sub-problems to solve the main problem, remembering the real solutions. 
+  But backtracking is not dynamic programming, we try all possible solutions, and if it does not work, we backtrack and try another solution.
+  But both of them are solved recursively.
 
 ## Backtracking Template
 ```python
