@@ -16,22 +16,21 @@ import heapq
 from typing import List
 
 
-class Solution:
-    def topKFrequent(self, nums: List[int], k: int) -> List[int]:  
-        counts = Counter(nums)
-        top_k = heapq.nlargest(k, counts.items(), key=lambda x: x[1])
-        return [i[0] for i in top_k]
+def topKFrequentDefaultDict(nums: List[int], k: int) -> List[int]:
+    d = defaultdict(int)
+    for i in nums:
+        d[i] += 1
 
-    def topKFrequentDefaultDict(self, nums: List[int], k: int) -> List[int]:
-        d = defaultdict(int)
-        for i in nums:
-            d[i] += 1
+    d = {}
+    for num in nums:
+        d[num] = d.get(num, 0) + 1
+    sorted_dict = {p: v for p, v in sorted(d.items(), key=lambda item: item[1], reverse=True)}
+    return list(sorted_dict)[:k]
 
-        largest_heap = heapq.nlargest(k, d.items(), key=lambda item: item[1])
-        return [i[0] for i in largest_heap]
 
-        # d = {}
-        # for num in nums:
-        #     d[num] = d.get(num, 0) + 1
-        # sorted_dict = {p: v for p, v in sorted(d.items(), key=lambda item: item[1], reverse=True)}
-        # return list(sorted_dict)[:k]
+def topKFrequentBestSolution(nums: List[int], k: int) -> List[int]:
+    counts = Counter(nums)
+    top_k = heapq.nlargest(k, counts.items(), key=lambda x: x[1])
+    return [i[0] for i in top_k]
+
+

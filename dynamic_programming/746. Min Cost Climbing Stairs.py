@@ -1,5 +1,5 @@
 """
-https://leetcode.com/problems/min-cost-climbing-stairs/
+Min Cost Climbing Stairs: https://leetcode.com/problems/min-cost-climbing-stairs/
 
 Problem: Given array with costs. Find min cost to reach the top of the stairs.
 

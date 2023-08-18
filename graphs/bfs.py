@@ -32,7 +32,7 @@ def bfs(graph: dict, start_node: str) -> list:
     return traversal
 
 
-def test_bfs():
+if __name__ == '__main__':
     graph = {
         '5': ['3', '7'],
         '3': ['2', '4'],

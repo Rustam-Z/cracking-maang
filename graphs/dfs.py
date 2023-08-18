@@ -44,6 +44,20 @@ def dfs_version2(graph, node, visited=None):
             dfs_version2(graph, neighbour, visited)
 
 
+def dfs_iterative(graph, node):
+    visited = set()
+    stack = [node]
+
+    while stack:
+        curr = stack.pop()
+        if curr not in visited:
+            visited.add(curr)
+            traversal.append(curr)  # To get result.
+
+            for neighbour in graph[curr]:  # graph[node] - visited
+                stack.append(neighbour)
+
+
 def test_dfs_version1():
     graph = {
         '5': ['3', '7'],

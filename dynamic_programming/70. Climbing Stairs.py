@@ -1,4 +1,6 @@
 """
+Climbing Stairs: https://leetcode.com/problems/climbing-stairs/
+
 Problem: How many ways to climb to top.
 
 Constrains:
@@ -51,7 +53,7 @@ def brute_force(n):
 
 
 # Recursion with Memoization
-def recursion_with_memoization(n):
+def dp_memoization(n):
     """
     Time: O(n)
     Space: O(n)
@@ -68,7 +70,7 @@ def recursion_with_memoization(n):
 
 
 # Dynamic Programming (Bottom Up)
-def dynamic_programming(n):
+def dp_bottom_up(n):
     # Edge case
     if n == 0 or n == 1:
         return 1

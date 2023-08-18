@@ -64,3 +64,14 @@
   - Perform a depth first search on the whole graph
   - Reverse the original graph
   - Perform depth-first search on the reversed graph
+
+## Graph representation
+```python
+adjacency_list = defaultdict(list)
+
+# Build adjacency list to represent the graph
+for src_node, dst_node in edges:
+    adjacency_list[src_node].append(dst_node)
+    adjacency_list[dst_node].append(src_node)
+```
+

@@ -14,23 +14,61 @@ def binary_search(nums, target: int) -> int:
     return -1
 
 
-# Returns index of x in arr if present, else -1
-def binary_search_recursive(arr, l, r, x):
+def search_in_rotated_sorted_array(nums, target: int) -> int:
+    """
+    https://leetcode.com/problems/search-in-rotated-sorted-array/
+
+    Given the array nums after the possible rotation and an integer target,
+    return the index of target if it is in nums,
+    or -1 if it is not in nums.
+
+    SOLUTION #1
+    1. Change the array by finding the rotation point
+    2. Apply binary search
+
+    SOLUTION #2
+    1. Find rotation point
+    2. Modify binary search algorithm
+    """
+    def find_rotation_point(nums):
+        left, right = 0, len(nums) - 1
+
+        while left < right:
+            mid = (left + right) // 2
+
+            if nums[mid] > nums[right]:
+                left = mid + 1
+            else:
+                right = mid
+
+        return left
+
+    rotation_point = find_rotation_point(nums)
+
+    if nums[rotation_point] == target:
+        return rotation_point
+    elif nums[rotation_point] < target <= nums[-1]:
+        return binary_search(nums[rotation_point:], target) + rotation_point
+    else:
+        return binary_search(nums[:rotation_point], target)
+
+
+def binary_search_recursive(nums, l, r, x):
     # Check base case
     if r >= l:
         mid = l + (r - l) // 2
-        if arr[mid] == x:
+        if nums[mid] == x:
             return mid
 
         # If element is smaller than mid, then it
         # can only be present in left subarray
-        elif arr[mid] > x:
-            return binary_search_recursive(arr, l, mid - 1, x)
+        elif nums[mid] > x:
+            return binary_search_recursive(nums, l, mid - 1, x)
 
         # Else the element can only be present
         # in right subarray
         else:
-            return binary_search_recursive(arr, mid + 1, r, x)
+            return binary_search_recursive(nums, mid + 1, r, x)
 
     else:
         # Element is not present in the array

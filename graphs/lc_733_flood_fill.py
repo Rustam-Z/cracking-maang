@@ -1,44 +1,40 @@
 """
+Flood fill: https://leetcode.com/problems/flood-fill/
+
 Problem: Need to color 4-dimensionally (up, left, right, down)
-
-DFS = Depth first search, uses the Stack.
-
-0. We have to use the recursion
-1. Edge case, check if list is None or the image pixel is already same color
-2. Apply DFS
-3. Check if index is out of bounds or current pixel is not the same color
-
-Time: O(n)
-Space: O(n)
 """
 
 
-class Solution:
-    def floodFill(self, image: list[list[int]], sr: int, sc: int, newColor: int) -> list[list[int]]:
-        # Check for the corner cases
-        if image is None or image[sr][sc] == newColor:
-            return image
+def solution(image, sr, sc, newColor):
+    """
+    Algorithm (DFS = Depth first search, uses the Stack):
+    1. Check if the given cell is not the new color and is the original color
+    2. If yes, then change the color of the cell to the new color
+    3. Then recursively call the function for the up, down, left, right cells
 
-        self.fill(image, sr, sc, image[sr][sc], newColor)
+    Time: O(R*C), where R is the number of rows in the given image, and C is the number of columns.
+    Space: O(R*C)
+    """
+
+    if not image or image[sr][sc] == newColor:
         return image
 
-    def fill(self, image, row, column, initial, newColor):
-        # Base case, check out of bounds
-        if row < 0 or row >= len(image) or column < 0 or column >= len(image[0]) or image[row][
-            column] != initial:  # last one checks if the color of pixel is not the same as initial
-            return
+    number_of_rows, number_of_columns = len(image), len(image[0])
 
-        image[row][column] = newColor
-        self.fill(image, row - 1, column, initial, newColor)  # Up
-        self.fill(image, row + 1, column, initial, newColor)  # Down
-        self.fill(image, row, column - 1, initial, newColor)  # Left
-        self.fill(image, row, column + 1, initial, newColor)  # Right
+    def dfs(image, row, column, original_color):
+        if 0 <= row < number_of_rows and 0 <= column < number_of_columns and image[row][column] == original_color:
+            image[row][column] = newColor
+            dfs(image, row + 1, column, original_color)
+            dfs(image, row - 1, column, original_color)
+            dfs(image, row, column + 1, original_color)
+            dfs(image, row, column - 1, original_color)
+
+    dfs(image, sr, sc, original_color=image[sr][sc])  # No need to iterate over each cell. Only for image[sr][sc]
+
+    return image
 
 
-image = [[1, 1, 1], [1, 1, 0], [1, 0, 1]]
-sr = 0
-sc = 1
-newColor = 2
-
-sol = Solution()
-print(sol.floodFill(image, sr, sc, newColor))
+if __name__ == "__main__":
+    assert solution(image=[[1, 1, 1], [1, 1, 0], [1, 0, 1]], sr=1, sc=1, newColor=2) == [[2, 2, 2], [2, 2, 0],
+                                                                                        [2, 0, 1]]
+    assert solution(image=[[0, 0, 0], [0, 1, 1]], sr=1, sc=1, newColor=1) == [[0, 0, 0], [0, 1, 1]]

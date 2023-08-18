@@ -39,6 +39,22 @@ class Solution:
         traversal(root, string)
         return result
 
+    def find_path_from_root_to_node(self, root: TreeNode, node: TreeNode) -> List[str]:
+        result = []
+        string = ""
+
+        def traversal(root, string):
+            if root:
+                string += str(root.val) + "->"
+                if root == node:
+                    result.append(string[:-2])
+
+                traversal(root.right, string)
+                traversal(root.left, string)
+
+        traversal(root, string)
+        return result
+
 
 if __name__ == '__main__':
     root = TreeNode(1)
@@ -47,3 +63,4 @@ if __name__ == '__main__':
     root.right = TreeNode(3)
 
     print(Solution().binaryTreePaths(root))
+    print(Solution().find_path_from_root_to_node(root, root.left.right))

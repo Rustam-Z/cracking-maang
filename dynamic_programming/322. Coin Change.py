@@ -1,5 +1,5 @@
 """
-https://leetcode.com/problems/coin-change
+Coin change: https://leetcode.com/problems/coin-change
 
 Problem: Given array of coins, and amount. Find the minimum number of coins to make up that amount.
 If not possible to create that amount, return -1.
@@ -44,3 +44,7 @@ def coinChangeBottomUp(coins: List[int], amount: int) -> int:
                 dp[a] = min(dp[a], dp[a - c] + 1)  # We will update the dp with the minimum number of coins.
 
     return dp[amount] if dp[amount] != float('inf') else -1  # If we can't make up the amount, we will return -1.
+
+
+if __name__ == "__main__":
+    assert coinChangeBottomUp([1, 2, 5], 11) == 3
