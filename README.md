@@ -2,7 +2,7 @@
 
 Rustam-Z🚀 • 8 June 2021
 
-> Join my Telegram channel: [@crackingmaang](https://t.me/crackingmaang), where I share MAANG interview preparation resources.
+> Join my Telegram channel: [@cracking_swe](https://t.me/cracking_swe), where I share MAANG interview preparation resources.
 
 <img src="_resources/ctci.jpg">
 
