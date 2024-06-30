@@ -4,7 +4,7 @@ Rustam-Z 🚀 • 8 June 2021
 
 This document will guide you through my steps for preparing for my Google interviews. Overall, it took me 2 years to crack the MAANG interview, including learning algorithms and data structures, practicing coding & problem-solving, and applying and passing all interviews.
 
-> Join my Telegram channel: [@cracking_swe](https://t.me/cracking_maang), where I share MAANG interview preparation resources.
+> Join my Telegram channel: [@cracking_maang](https://t.me/cracking_maang), where I share MAANG interview preparation resources.
 
 <img src="_resources/ctci.jpg">
 
