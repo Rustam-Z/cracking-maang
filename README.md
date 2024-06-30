@@ -19,7 +19,7 @@ This document will guide you through my steps for preparing for my Google interv
 7. Getting an interview invitation, passing all interviews, and getting an offer! 🍾
 
 
-## How did I learn data structures and algorithms? Here are the resources I used:**
+## How did I learn data structures and algorithms? Here are the resources I used:
 1. I had a Data Structures class at university. [Here are the notes I have from the class.](https://github.com/Rustam-Z/data-structures-and-algorithms) 
 2. [Naso Academy DS playlist](https://www.youtube.com/playlist?list=PLBlnK6fEyqRj9lld8sWIUNwlKfdUoPd1Y)
 3. [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/introduction/)
@@ -30,7 +30,7 @@ This document will guide you through my steps for preparing for my Google interv
 8. AlgoExpert Data Structures course 
 
 
-## Practicing coding & problem solving questions:**
+## Practicing coding & problem solving questions:
 1. [interviewbit.com](https://www.interviewbit.com/courses/programming/)
 2. [LeetCode Explore](https://leetcode.com/explore/) (only data structures cards)
 3. [LeetCode study plan](https://leetcode.com/study-plan/) — [Data Structure 1, Algorithm 1, Programming Skills 1](https://gist.github.com/priyavrat-misra/a776a005ee4a68edda535f4a7e1b6adb). 
