@@ -1,33 +1,26 @@
 # Cracking the Coding Interview 
 
-Rustam-Z🚀 • 8 June 2021
+Rustam-Z 🚀 • 8 June 2021
 
-This doc will guide you through my steps for preparing for my MAANG interviews. Overall, it took me 2 years to crack the MAANG interview, including learning algorithms and data structures, practicing coding & problem-solving, and applying and passing all interviews.
+This document will guide you through my steps for preparing for my Google interviews. Overall, it took me 2 years to crack the MAANG interview, including learning algorithms and data structures, practicing coding & problem-solving, and applying and passing all interviews.
 
 > Join my Telegram channel: [@cracking_swe](https://t.me/cracking_maang), where I share MAANG interview preparation resources.
 
 <img src="_resources/ctci.jpg">
 
-## Contents
-- [General plan](#general-plan)
-- [How to approach solving algorithm?](#how-to-approach-solving-the-algorithm)
-- [Algorithms & data structures topics](#topics)
-- [Algorithms learning preparation plan](#algorithms-learning-plan)
-- [System Design](#system-design-learning-plan)
-- [Extra Resources](#extra-resources)
 
 ## General plan
 1. Learning algorithms and data structures. 
 2. Solving algorithms, and learning patterns and concepts. 
-3. Practicing coding & problem-solving questions together with friends on white-board.
+3. Practicing coding & problem-solving questions together with friends on the whiteboard.
 4. Learning System Design. 
 5. Writing a resume. Applying to jobs.
 6. Preparing for a behavioral interview.
 7. Getting an interview invitation, passing all interviews, and getting an offer! 🍾
 
-## How did I learn data structures and algorithms? Here is the resources I used:**
 
-1. I had Data Structures class at university. [Here is the notes I have from the class.](https://github.com/Rustam-Z/data-structures-and-algorithms) 
+## How did I learn data structures and algorithms? Here are the resources I used:**
+1. I had a Data Structures class at university. [Here are the notes I have from the class.](https://github.com/Rustam-Z/data-structures-and-algorithms) 
 2. [Naso Academy DS playlist](https://www.youtube.com/playlist?list=PLBlnK6fEyqRj9lld8sWIUNwlKfdUoPd1Y)
 3. [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/introduction/)
 4. [Jenny's DSA playlist](https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU)
@@ -36,8 +29,8 @@ This doc will guide you through my steps for preparing for my MAANG interviews. 
 7. NeetCode videos: here’s [one of them](https://youtu.be/uhYq27iSk9s?feature=shared)
 8. AlgoExpert Data Structures course 
 
-## Practicing coding & problem solving questions:**
 
+## Practicing coding & problem solving questions:**
 1. [interviewbit.com](https://www.interviewbit.com/courses/programming/)
 2. [LeetCode Explore](https://leetcode.com/explore/) (only data structures cards)
 3. [LeetCode study plan](https://leetcode.com/study-plan/) — [Data Structure 1, Algorithm 1, Programming Skills 1](https://gist.github.com/priyavrat-misra/a776a005ee4a68edda535f4a7e1b6adb). 
@@ -47,7 +40,16 @@ This doc will guide you through my steps for preparing for my MAANG interviews. 
 7. [neetcode.io](https://neetcode.io/) & [NeetCode playlist](https://www.youtube.com/c/NeetCode/playlists)
 8. LeetCode company tagged questions
 
-## How to approach solving the algorithm?
+
+## System Design Learning Plan
+- [ ] "Systems Expert" from AlgoExpert
+- [ ] "System Design Interview" book - 1<sup>st</sup> and 2<sup>nd</sup> editions
+- [ ] "Grokking the System Design Interview" (educative.io)
+- [ ] "Designing Data-Intensive Applications" book
+- [ ] [Tushar](https://www.youtube.com/user/tusharroy2525/playlists)
+
+
+## Problem-solving approach
 
 **Constraints, Ideas, Complexities, Code, and Tests**
 
@@ -60,38 +62,9 @@ This doc will guide you through my steps for preparing for my MAANG interviews. 
 7. Write code on paper.
 8. Debug your code on paper and test with new corner case inputs.
 9. Write code and write tests.
-
-
-## Algorithms Learning Plan
-- [ ] [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/introduction/)
-- [ ] [interviewbit.com](https://www.interviewbit.com/courses/programming/) & [interviewcake.com](https://www.interviewcake.com/table-of-contents) & [programiz.com/dsa](https://www.programiz.com/dsa)
-- [ ] [LeetCode Explore](https://leetcode.com/explore/)
-- [ ] [LeetCode study plan](https://leetcode.com/study-plan/) — Data Structure 1, Algorithm 1, Programming Skills 1
-- [ ] "Cracking the coding interview" + [CTCI problems in LeetCode](https://leetcode.com/discuss/general-discussion/1152824/cracking-the-coding-interview-6th-edition-in-leetcode)
-- [ ] [LeetCode study plan](https://leetcode.com/study-plan/) — Data Structure 2, Algorithm 2, Programming Skills 2
-- [ ] AlgoExpert video solutions
-- [ ] [neetcode.io](https://neetcode.io/) & [NeetCode playlist](https://www.youtube.com/c/NeetCode/playlists)
-- [ ] LeetCode company tagged questions
-
-
-## System Design Learning Plan
-- [ ] "Systems Expert" from AlgoExpert
-- [ ] "System Design Interview" book - 1<sup>st</sup> and 2<sup>nd</sup> editions
-- [ ] "Grokking the System Design Interview" (educative.io)
-- [ ] "Designing Data-Intensive Applications" book
-- [ ] [Tushar](https://www.youtube.com/user/tusharroy2525/playlists)
-
-
-## Extra Resources
-- [Article by Sergey Sema](https://dou.ua/lenta/articles/google-interview/)
-- [InterviewPreparationGuide.pdf](http://larrr.com/wp-content/uploads/2016/10/InterviewPreparationGuide.pdf)
-- [faang-interview.github.io](https://faang-interview.github.io/)
-- [docs.outtalent.com/guides](https://docs.outtalent.com/guides)
-- [Coding interview tips](https://www.interviewcake.com/coding-interview-tips)
-  
-### Algorithms & Data Structures Readings
-- https://www.hiredintech.com/classrooms/algorithm-design/lesson/78
-- https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/
+10. More to read:
+    - https://www.hiredintech.com/algorithms/algorithm-design-canvas/what-is-the-canvas/
+    - https://www.notion.so/Cracking-Google-Interview-Part-2-Interview-preparation-roadmap-Algo-DS-System-Design-Testin-0db63db83370414bac62343edf95034e?pvs=4
 
 
 ## Topics
@@ -137,7 +110,7 @@ This doc will guide you through my steps for preparing for my MAANG interviews. 
     - Greedy algorithms
     - Recursion
 
-## Questions (corner cases and constraints) — check the cheat sheet
+## Questions (corner cases and constraints)
 1. Ask about edge cases (propose edge case). Explain and clarify, DS tradeoff, time, and space complexity.
 2. Questions
     1. How am I receiving this data?
@@ -223,4 +196,23 @@ This doc will guide you through my steps for preparing for my MAANG interviews. 
     - Recursion
         1. recursion 1.000 call stack size is input too big?
  7. More to read:
+    - https://www.hiredintech.com/classrooms/algorithm-design/lesson/78
+    - https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/
     - https://medium.com/swlh/taking-the-edge-off-of-edge-cases-7b3008d83a57
+   
+
+## Extra Resources
+- [Article by Sergey Sema](https://dou.ua/lenta/articles/google-interview/)
+- [InterviewPreparationGuide.pdf](http://larrr.com/wp-content/uploads/2016/10/InterviewPreparationGuide.pdf)
+- [faang-interview.github.io](https://faang-interview.github.io/)
+- [docs.outtalent.com/guides](https://docs.outtalent.com/guides)
+- [Coding interview tips](https://www.interviewcake.com/coding-interview-tips)
+- [Interview Cake Coding Interview Tips](https://www.interviewcake.com/coding-interview-tips)
+- [Prepare for Your Google Interview: Coding](https://youtu.be/6ZZX9iIgFoo?feature=shared)
+- [Interview tips from Google Software Engineers](https://youtu.be/XOtrOSatBoY?feature=shared)
+- [Coding Mock Interview](https://www.youtube.com/watch?v=XKu_SEDAykw)
+- [Tech Interview Process](https://youtu.be/nemEAjYcdo0?feature=shared)
+- [Preparing for a Technical Interview](https://youtu.be/OMkfujDPpwc?feature=shared)
+- [Prepare for your Google Interview: General Cognitive Ability](https://youtu.be/eIMR82oO2Dc?feature=shared)
+- [Prepare for your Google Interview: Leadership](https://youtu.be/2Cr3-et4xkI?feature=shared)
+
