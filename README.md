@@ -8,7 +8,6 @@ This document will guide you through my steps for preparing for my Google interv
 
 <img src="_resources/ctci.jpg">
 
-
 ## General plan
 1. Learning algorithms and data structures. 
 2. Solving algorithms, and learning patterns and concepts. 
@@ -18,8 +17,7 @@ This document will guide you through my steps for preparing for my Google interv
 6. Preparing for a behavioral interview.
 7. Getting an interview invitation, passing all interviews, and getting an offer! 🍾
 
-
-## How did I learn data structures and algorithms? Here are the resources I used:
+## How did I learn data structures and algorithms? Here are the resources I used
 1. I had a Data Structures class at university. [Here are the notes I have from the class.](https://github.com/Rustam-Z/data-structures-and-algorithms) 
 2. [Naso Academy DS playlist](https://www.youtube.com/playlist?list=PLBlnK6fEyqRj9lld8sWIUNwlKfdUoPd1Y)
 3. [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/introduction/)
@@ -29,8 +27,9 @@ This document will guide you through my steps for preparing for my Google interv
 7. NeetCode videos: here’s [one of them](https://youtu.be/uhYq27iSk9s?feature=shared)
 8. AlgoExpert Data Structures course 
 
+## Practicing coding & problem solving questions
+Follow: https://rustam-z.notion.site/Cracking-MAANG-My-Interview-Preparation-Roadmap-17e1ece53065800fae2cca024f557162
 
-## Practicing coding & problem solving questions:
 1. [interviewbit.com](https://www.interviewbit.com/courses/programming/)
 2. [LeetCode Explore](https://leetcode.com/explore/) (only data structures cards)
 3. [LeetCode study plan](https://leetcode.com/study-plan/) — [Data Structure 1, Algorithm 1, Programming Skills 1](https://gist.github.com/priyavrat-misra/a776a005ee4a68edda535f4a7e1b6adb). 
@@ -40,14 +39,12 @@ This document will guide you through my steps for preparing for my Google interv
 7. [neetcode.io](https://neetcode.io/) & [NeetCode playlist](https://www.youtube.com/c/NeetCode/playlists)
 8. LeetCode company tagged questions
 
-
 ## System Design Learning Plan
-- [ ] "Systems Expert" from AlgoExpert
-- [ ] "System Design Interview" book - 1<sup>st</sup> and 2<sup>nd</sup> editions
-- [ ] "Grokking the System Design Interview" (educative.io)
-- [ ] "Designing Data-Intensive Applications" book
-- [ ] [Tushar](https://www.youtube.com/user/tusharroy2525/playlists)
-
+1. "Systems Expert" from AlgoExpert
+2. "System Design Interview" book - 1<sup>st</sup> and 2<sup>nd</sup> editions
+3. "Grokking the System Design Interview" (educative.io)
+4. "Designing Data-Intensive Applications" book
+5. [Tushar](https://www.youtube.com/user/tusharroy2525/playlists)
 
 ## Problem-solving approach
 
